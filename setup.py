@@ -89,7 +89,7 @@ if 'py2exe' in sys.argv:
 
 setup(
     name='awscli',
-    version=find_version("awscli", "__init__.py"),
+    version='2.9.19',
     description='Universal Command Line Environment for AWS.',
     long_description=read('README.rst'),
     author='Amazon Web Services',
