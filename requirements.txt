@@ -1,5 +1,5 @@
 # botocore and the awscli packages are typically developed
 # in tandem, so we're requiring the latest develop
 # branch of botocore and s3transfer when working on the awscli.
--e git+https://github.com/boto/botocore.git@develop#egg=botocore
--e git+https://github.com/boto/s3transfer.git@develop#egg=s3transfer
+-e git+https://github.com/boto/botocore.git@5599853483f89d9d687c60ea071c37cd220d5569#egg=botocore
+-e git+https://github.com/boto/s3transfer.git@45375000b56ed8c439b66d607aac11a3b71da646#egg=s3transfer
